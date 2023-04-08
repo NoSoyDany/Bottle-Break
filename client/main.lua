@@ -1,7 +1,7 @@
 local usingBottle = false
 
-RegisterNetEvent('Bottle:darBottle')
-AddEventHandler('Bottle:darBottle', function(source)
+RegisterNetEvent('Bottle:giveBottle')
+AddEventHandler('Bottle:giveBottle', function(source)
 local playerPed = GetPlayerPed(-1)
 if IsPedSittingInAnyVehicle(playerPed) then
 		ESX.ShowNotification('You have to be on foot to break a bottle.')

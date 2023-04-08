@@ -1,9 +1,9 @@
 ESX = exports["es_extended"]:getSharedObject()
 
-ESX.RegisterUsableItem('fabr_botella', function(source)
+ESX.RegisterUsableItem('bottle', function(source)
 	local xPlayer = ESX.GetPlayerFromId(source)
-		xPlayer.removeInventoryItem('fabr_botella', 1)
-		TriggerClientEvent('Bottle:darBottle', source)
+		xPlayer.removeInventoryItem('bottle', 1)
+		TriggerClientEvent('Bottle:giveBottle', source)
 		xPlayer.addWeapon('weapon_bottle', 1)
 		ESX.ShowNotification('You have broken a bottle.')
 	-- OKOK INTEGRATION

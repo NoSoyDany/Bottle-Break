@@ -2,14 +2,13 @@
 -- Contact: nosoydany@lanacion.company
 -- MADE IN SPAIN
 
-fx_version 'adamant'
+fx_version 'cerulean'
 
 game 'gta5'
-
-description 'Rompe una botella - Made for ESX Legacy'
+description 'Break a bottle - Made for ESX Legacy'
 author 'NoSoyDany'
 
-version '1.0.0'
+version '1.2.0'
 
 server_script {
 	'@oxmysql/lib/MySQL.lua',
